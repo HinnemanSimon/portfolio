@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .collapse,
     .container {
         flex: 100%;
@@ -17,4 +17,5 @@
 
 .carousel-item {
     height: 500px;
+    flex: 100%;
 }
