@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl-be">
 
 </html>
 
@@ -39,18 +39,18 @@
         <header class="pb-3 mb-4 border-bottom">
             <h1>Curruculum Vitae</h1>
         </header>
-        <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Personalia</a>
+        <div class="btn-fill">
+            <button class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Personalia</button>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">opleiding</button>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Talenkennis</a>
+            <button class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Talenkennis</button>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Werkervaringen</button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3 multiCollapseExample4">Alle informatie</button>
-        </p>
-        <div class="row">
-            <div class="col-md-8">
+        </div>
+        <div class="row collapse-fill">
+            <div class="col-md">
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                     <div class="card card-body">
                         <ul>
+                            <h2>Personalia</h2>
                             <li>Naam: Hinneman</li>
                             <li>Voornaam: Simon</li>
                             <li>Postcode/woonplaats: 2275 Lille</li>
@@ -62,20 +62,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md">
                 <div class="collapse multi-collapse" id="multiCollapseExample2">
                     <div class="card card-body">
                         <ul>
+                            <h2>Opleidingen</h2>
                             <li>Diploma houttechnieken TSO 2010-2016 (VTST: vrije technische school Turnhout)</li>
                             <li>Graduaat programmeren 2021-heden (Thomas More Geel)</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md">
                 <div class="collapse multi-collapse" id="multiCollapseExample3">
                     <div class="card card-body">
                         <ul>
+                            <h2>Talen</h2>
                             <li>Nederlands</li>
                             <li>Engels</li>
                             <li>Frans</li>
@@ -83,10 +85,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md">
                 <div class="collapse multi-collapse" id="multiCollapseExample4">
                     <div class="card card-body">
                         <ul>
+                            <h2>Werkervaringen</h2>
                             <li>Onderneming: Délidis nov 2018- sep 2021 ( vaste job ) functie: orderpicker/ magazijnier</li>
                             <li>Onderneming: banketbakkerij Dirk Crols 2014-2018 (tijdens de weekends) Functie: bakkershulp (nachtwerk)</li>
                             <li>Onderneming: Decor finesse 2016 (stage) Functie: meubelmaker</li>
@@ -97,19 +100,17 @@
                 </div>
             </div>
         </div>
-    </main>
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="text-muted">© 2021 Simon Hinneman</span>
-            </div>
 
+    </main>
+    <div class="container ">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+            <div class="col-md-4 d-flex align-items-center ">
+                <span class="text-muted ">© 2021 Simon Hinneman</span>
+            </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="bi bi-instagram" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="bi bi-facebook" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
             </ul>
         </footer>
     </div>

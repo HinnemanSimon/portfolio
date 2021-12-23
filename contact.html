@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl-be">
 
 
 
@@ -43,58 +43,55 @@
             <h1>contactgegevens</h1>
         </header>
         <form>
-            <div class="mb-4">
-                <label for="Naam" class="form-label">Naam</label>
-                <input type="text" class="form-control" id="Naam">
-            </div>
-            <div class="mb-4">
-                <label for="Voornaam" class="form-label">Voornaam</label>
-                <input type="text" class="form-control" id="Voornaam">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="Naam " class="form-label ">Naam</label>
+                    <input type="text" class="form-control " id="Naam " required>
+                </div>
+
+                <div class="col-md-6 ">
+                    <label for="Voornaam " class="form-label ">Voornaam</label>
+                    <input type="text " class="form-control " id="Voornaam" required>
+                </div>
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">E-mailadres</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <label for="email" class="form-label">Email adres</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Ik zal nooit uw mail adres delen met anderen </div>
             </div>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>intresse in Skils</option>
-                <option value="1">HTML</option>
-                <option value="2">CSS</option>
-                <option value="3">Bootstrap</option>
-                <option value="1">C#</option>
+            <select class="form-select " aria-label="Default select example ">
+                <option selected>Kies een vaardigheid</option>
+                <option value="1 ">HTML</option>
+                <option value="2 ">CSS</option>
+                <option value="3 ">Bootstrap</option>
+                <option value="1 ">C#</option>
               </select>
-            <div class="mb-3">
-                <label for="Vraag" class="form-label">Vragen?</label>
-                <textarea class="form-control" id="Vraag" rows="3"></textarea>
+            <div class="mb-3 ">
+                <label for="Vraag " class="form-label ">Vragen?</label>
+                <textarea class="form-control " id="Vraag " rows="3 "></textarea>
             </div>
-
-
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit " class="btn btn-primary ">Submit</button>
         </form>
         <section>
             <p>Als u contact met mij wil opnemen kan dat via volgend mailadres:</p>
             <nav>
-                <a href="Simon.hinneman@gmail.com">Simon.hinneman@gmail.com</a>
+                <a class="btn btn-dark" href="Simon.hinneman@gmail.com ">Simon.hinneman@gmail.com</a>
             </nav>
-            <p>U kan ook het volgende formulier invullen voor een vraag te stellen.</p>
-
         </section>
     </main>
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="text-muted">© 2021 Simon Hinneman</span>
+    <div class="container ">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+            <div class="col-md-4 d-flex align-items-center ">
+                <span class="text-muted ">© 2021 Simon Hinneman</span>
             </div>
-
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="bi bi-instagram" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="bi bi-facebook" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
             </ul>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 </body>
 
